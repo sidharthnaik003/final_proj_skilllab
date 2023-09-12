@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+.hero {
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.heading h1 {
+    color: #ff6347;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:65px auto;
+}
+.hero-content{
+    flex:1;
+    width:600px;
+    margin: 0px 25px;
+}
+.hero-content h2{
+    font-size:38px;
+    margin-bottom:20px;
+    color:#333;
+}
+.hero-image{
+    flex:1;
+    width:600px ;
+    margin:auto;
+}
+img1{
+    width:100%;
+    height:auto;
+    border-radius:10px;
+
+}
